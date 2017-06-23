@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace Domain
         public int LeagueId{ get; set; }
         public int Name { get; set; }
         public int Log { get; set; }
+
+        public virtual Collection<Team> Teams  { get; set; }
     }
 }

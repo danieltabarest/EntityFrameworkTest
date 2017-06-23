@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateContext.cs" />
+    <Compile Include="Team.cs" />
     <Compile Include="League.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
